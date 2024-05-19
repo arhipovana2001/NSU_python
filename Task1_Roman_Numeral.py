@@ -121,16 +121,20 @@ class RomanNumeral:
         return RomanNumeral(result_roman)
 
 
+# Создаем римское число ХХХ = 30
 roman1 = RomanNumeral('XXX')
-print(roman1.is_valid())
-print(roman1.to_int())
+# Проверка на валидность
+print(roman1.is_valid())  # True
+# Перевод римского числа в арабское 
+print(roman1.to_int())  #30
 print(roman1)
 
 a = 12
+# Перевод арабского числа в римское
 print(RomanNumeral.to_roman(a))
 
+# Складывание, вычитание, умножение, деление, нахождение остатка от дедения двух римских чисел
 roman2 = RomanNumeral('XXII')
-print(roman2.int_value)
 print(roman2)
 print(roman1 + roman2)
 print(roman1 - roman2)
