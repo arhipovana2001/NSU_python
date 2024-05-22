@@ -11,4 +11,8 @@
 Task1_Roman_Numeral.py
 Task1_unittests.py
 
+### Задача Таск-менеджер
+Task1_Task_Manager.py
+Task2_unittests.py
+
 ## Часть 2. Доп. тема (Парсинг web-страниц)
