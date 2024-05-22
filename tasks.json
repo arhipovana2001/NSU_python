@@ -1,1 +1,29 @@
-{"users": [{"username": "aa", "password": "12", "tasks": [{"task_id": 1, "title": "q", "description": "q", "status": "a", "deadline": "2024-03-10", "priority": "High"}]}]}
+{
+    "users": [
+        {
+            "username": "aa",
+            "password": "12",
+            "tasks": [
+                {
+                    "task_id": 1,
+                    "title": "Main Task",
+                    "description": "This is a main task",
+                    "status": "in progress",
+                    "deadline": "2024-03-10",
+                    "priority": "High",
+                    "type": "Task"
+                },
+                {
+                    "task_id": 2,
+                    "title": "Sub Task",
+                    "description": "This is a subtask",
+                    "status": "not started",
+                    "deadline": "2024-03-15",
+                    "priority": "Medium",
+                    "type": "Subtask",
+                    "parent_task_id": 1
+                }
+            ]
+        }
+    ]
+}
