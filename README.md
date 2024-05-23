@@ -91,6 +91,7 @@ items.csv
 users.csv
 
 ## Часть 2. Доп. тема (Парсинг web-страниц)
+Парсинг сайта habr.com
 
 #### Вложенные файлы:
-parser.py
+main.py
